@@ -1,0 +1,279 @@
+/* index.html */
+
+/* navbar */
+
+.wrogn-img , .wrogn-active{
+    margin-left: 2.4rem;
+}
+
+.wrogn-active{
+    margin-right: 5rem;
+}
+
+.dropdown{
+    list-style-type: none;
+}
+
+.categories , .my-account{
+    color: black;
+}
+
+
+
+/* middle body or fluid container */
+.img-cont{
+    width: 100%;
+}
+
+.top-categories{
+    text-align: center;
+    margin-top: 2.8rem;
+}
+
+.row{
+    width: 100%;
+}
+
+.components{
+    margin-top: 2rem;
+    width: 152px;
+    height: 216px;
+    margin-left: 0.7rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.components1{
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    width: 148px;
+    height: 180px;
+}
+
+.top-categories1{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.vdo{
+     height: 515px;
+     width: 100%;
+}
+
+.wt{
+    width: 100%;
+}
+
+.end{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.a1, .a2 {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .info, .info1 {
+    padding-left: 84px;
+    padding-right: 60px;
+  }
+
+  /* Sweat Shirts */
+
+  .fluid-container1{
+    display: flex;
+  }
+
+
+.sidebar{
+    width: 20%;
+    background-color: #D3D3D3;
+}
+
+.clear-all{
+    margin-right: 0.3rem;
+}
+
+.Filters{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.Filters1{
+    margin-top: 0.1rem;
+    display: flex;
+    margin-left: 1rem;
+}
+
+.f1{
+    margin-right: auto;
+}
+
+.categories , .t-shirts{
+    margin-left: 1rem;
+}
+
+.square{
+    margin-top: 0.3rem;
+}
+
+.row1{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sweat-t{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.m1{
+   width: 100%;
+}
+
+.components2{
+    width: 220px;
+    height: 286px;
+    margin-left: 2.1rem;
+    margin-bottom: 2rem;
+}
+
+/* Register */
+
+.fluid-container2{
+    text-align: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+
+.create{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.b1{
+    font-size: 20px;
+    margin-right: 8.5rem;
+}
+
+.ffname{
+   margin-left: 5rem;
+}
+
+.ssname , .ppname{
+    margin-right: 7.2rem;
+    margin-top: 1rem;
+}
+
+.bb1 , .sub{
+    margin-right: 13rem;
+    margin-top: 1rem;
+}
+
+.bb2{
+    margin-right: 8rem;
+    margin-top: 1rem;
+}
+
+.gender{
+    margin-right: 7rem;
+    margin-top: 1rem;
+}
+
+.MFO{
+    margin-right: 6.4rem;
+}
+
+/* media queries */
+@media screen and (max-width: 576px) {
+    .input1{
+        max-width: 40%;
+        margin: 0 0.7rem 0 0;
+    }
+    .btn{
+        margin-right: 2px;
+    }
+  }
+
+  /* index.html */
+  @media screen and (max-width: 991px) {
+    .components , .components1{
+        margin-left: 3.0rem;
+    }
+      
+  }
+
+  @media screen and (max-width: 768px) {
+    .components , .components1{
+        margin-left: 6.0rem;
+    }
+      
+  }
+
+  @media screen and (max-width: 630px) {
+    .components , .components1{
+        margin-left: 3.2rem;
+    }
+      
+  }
+
+
+    /* sweat t-shirts */
+  @media screen and (max-width: 1160px) {
+      .sidebar{
+          display: none;
+      }
+      
+  }
+
+  @media screen and (max-width: 1224px ){
+      .components2{
+        width: 200px;
+        height: 250px;
+        margin-left: 2.5rem;
+      }
+
+  }
+ 
+  @media screen and (max-width: 1145px ){
+    .components2{
+        margin-left: 5.5rem;
+    }
+
+}
+
+  @media screen and (max-width: 990px){
+      .components2{
+          margin-left: 0;
+      }
+      .comp1{
+          margin-left: 8rem;
+      }
+
+      .comp2{
+          margin-left: 15rem;
+      }
+
+  }
+
+  @media screen  and (max-width:845px){
+      .comp1{
+          margin-left: 2rem;
+      }
+      .comp2{
+          margin-left: 2rem;
+      }
+  }
+
+  /* @media screen and (max-width:838px){
+      .comp1{
+          margin-left: 2rem;
+      }
+      .comp2{
+          margin-left: 2rem;
+      }
+  } */
